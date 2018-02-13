@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>marytts-lang-en</artifactId>
-			<version>${project.version}</version>
+			<version>5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -70,6 +70,7 @@
 			<artifactId>marytts-lang-lb</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -78,7 +79,7 @@
 				<groupId>org.fortasoft</groupId>
 				<artifactId>gradle-maven-plugin</artifactId>
 				<configuration>
-					<gradleVersion>2.11</gradleVersion>
+					<gradleVersion>3.0</gradleVersion>
 					<args>
 						<arg>--quiet</arg>
 					</args>

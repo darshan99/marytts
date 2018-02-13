@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><marytts-install xmlns="http://mary.dfki.de/installer">
+  <voice gender="female" locale="en-US" name="voice-my_voice" type="marytts.htsengine.HMMVoice" version="5.2">
+    <description>A female English general voice</description>
+    <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
+    <package filename="voice-my_voice-hsmm-5.2.zip" md5sum="fc3ef1cf8a3f4a758da7f7c8f6c505e6" size="1170914">
+      <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
+    </package>
+    <files>lib/voice-my_voice-hsmm-5.2.jar</files>
+    <depends language="en" version="5.2"/>
+  </voice>
+</marytts-install>

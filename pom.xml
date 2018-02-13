@@ -182,13 +182,14 @@
 	<modules>
 		<module>marytts-common</module>
 		<module>marytts-languages</module>
+		<module>voice-cmu-slt-hsmm</module>
+		<module>voice-my_voice-hsmm</module>
+		<module>marytts-builder</module>
 		<module>marytts-signalproc</module>
 		<module>marytts-runtime</module>
 		<module>marytts-client</module>
-		<module>marytts-builder</module>
 		<module>marytts-redstart</module>
 		<module>marytts-transcription</module>
-		<module>voice-cmu-slt-hsmm</module>
 		<module>marytts-assembly</module>
 	</modules>
 
@@ -527,7 +528,7 @@
 				<plugin>
 					<groupId>org.fortasoft</groupId>
 					<artifactId>gradle-maven-plugin</artifactId>
-					<version>1.0.7</version>
+					<version>1.0.8</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
